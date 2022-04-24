@@ -168,19 +168,6 @@ app.get('/subscriptions', (req, res)=>{
             }
         }else{
             
-            // var new_result = []
-            // result.forEach((item, index)=>{
-            //     let inner_sql = "select * from subscriptions_detail where sub_id=" + item['id']
-            //     connection.query(inner_sql, (err, inner_result)=>{
-            //         inner_result = JSON.stringify(inner_result)
-            //         inner_result = JSON.parse(inner_result)
-            //         item.detail = inner_result             
-            //         new_result.push(item)    
-            //     });
-            // })
-
-            
-            
 
             result_body = {
                 'code':0,
